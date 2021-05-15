@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"Andrey",
+			"CKAD",
+			"FASTMAP",
+			"fullchain",
+			"Grechin",
+			"Kubernetes",
+			"netdevops",
+			"netprog",
+			"pytest",
+			"roadmaps",
+			"toolset"
+		]
+	}
+}

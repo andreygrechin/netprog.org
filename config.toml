@@ -1,0 +1,99 @@
+baseURL = "http://netprog.org/"
+languageCode = "en-us" # For RSS, view https://www.rssboard.org/rss-language-codes
+defaultContentLanguage = "en"  # For HTML page, now support: en, zh-hans, zh-hant, ja, nl, pl, it
+
+title = "The Network Programmability"
+theme = "fuji"
+
+# summaryLength = 100 # Custom summary length, add <!--more--> in post file to custom split point
+# paginate = 10
+
+[outputFormats]
+  [outputFormats.SearchIndex]
+    isPlainText = true
+    notAlternative = true
+    mediaType = "application/json"
+    path = "/search/"
+
+[outputs]
+  home = ["HTML", "RSS", "SearchIndex"]
+
+[permalinks]
+  post = "/:section/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
+
+[params]
+  author = "Andrey Grechin"
+  subTitle = "Network programmability bits"
+  defaultTheme = "dark" # default theme when first visit (auto|dark|light)
+
+  sourceURL = "https://github.com/andreygrechin/netprog.org"
+
+  # Word counter and read time indicator in post metadata
+  showWordCounter = false
+  showReadTime = true
+
+  # License in the footer
+  showLicenseInFooter = true
+
+  # License at the end of each post
+  showLicense = false
+  showToc = true
+
+ # Copyright
+  copyrightStartYear = "2021"
+
+  # Posts shown in homepage
+  mainSections = ["posts"]
+
+  # License
+  license = "CC BY 4.0"
+  licenseLink = "https://creativecommons.org/licenses/by/4.0/"
+
+  # Let images display in full brightness under dark mode
+  disableDarkImage = true
+
+[taxonomies]
+  tag = "tags"
+
+[menu]
+  [[menu.nav]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.nav]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.nav]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+  [[menu.nav]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 4
+
+  [[menu.link]]
+    name = "GitHub"
+    url = "https://github.com/andreygrechin"
+    weight = 1
+  [[menu.link]]
+    name = "Twitter"
+    url = "https://twitter.com/andreygrechin"
+    weight = 2
+  [[menu.link]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/agrechin/"
+    weight = 3
+
+# [deployment]
+# By default, files are uploaded in an arbitrary order.
+# Files that match the regular expressions in the "Order" list
+# will be uploaded first, in the listed order.
+# order = [".jpg$", ".gif$", ".png$"]
+# [[deployment.targets]]
+# An arbitrary name for this target.
+# name = "aws"
+# S3; see https://gocloud.dev/howto/blob/#s3
+# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
+# URL = "s3://<Bucket Name>?region=<AWS region>"
