@@ -12,8 +12,8 @@ traditional CI/CD approach to add pipelines with testing and deployment steps. A
 great example is [Julio Gomez's work](https://github.com/juliogomez/netdevops),
 which is based on NSO, Ansible, and GitLab CI/CD pipelines.
 
-However, NSO has a great embedded toolset to implement full CI/CD pipelines with
-the help of
+However, NSO has an embedded functionality to implement full CI/CD
+pipelines with the help of
 [Nano services](https://developer.cisco.com/docs/nso/guides/#!nano-services).
 
 ## What are Nano services
