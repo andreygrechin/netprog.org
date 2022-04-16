@@ -8,7 +8,7 @@ theme = "fuji"
 # summaryLength = 100 # Custom summary length, add <!--more--> in post file to custom split point
 # paginate = 10
 
-googleAnalytics = "G-YSF5WZEL7Q" # Set your Google Analytics UA here
+googleAnalytics = "UA-226100816-1" # Set your Google Analytics UA here
 
 [outputFormats]
   [outputFormats.SearchIndex]
