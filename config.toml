@@ -8,7 +8,7 @@ theme = "fuji"
 # summaryLength = 100 # Custom summary length, add <!--more--> in post file to custom split point
 # paginate = 10
 
-googleAnalytics = "G-EVHQQSE5VK" # Set your Google tags ID
+googleAnalytics = "G-MSSK5N5R34" # Set your Google tags ID
 
 [outputFormats]
 [outputFormats.SearchIndex]
