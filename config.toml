@@ -1,6 +1,6 @@
-baseURL = "http://netprog.org/"
-languageCode = "en-us"          # For RSS, view https://www.rssboard.org/rss-language-codes
-defaultContentLanguage = "en"   # For HTML page, now support: en, zh-hans, zh-hant, ja, nl, pl, it
+baseURL = "https://netprog.org/"
+languageCode = "en-us"           # For RSS, view https://www.rssboard.org/rss-language-codes
+defaultContentLanguage = "en"    # For HTML page, now support: en, zh-hans, zh-hant, ja, nl, pl, it
 
 title = "The Network Programmability"
 theme = "fuji"
